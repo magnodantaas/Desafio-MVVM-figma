@@ -13,6 +13,7 @@
 		E44EA546271E4D67005B03EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44EA544271E4D67005B03EC /* Main.storyboard */; };
 		E44EA548271E4D6C005B03EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E44EA547271E4D6C005B03EC /* Assets.xcassets */; };
 		E44EA54B271E4D6C005B03EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44EA549271E4D6C005B03EC /* LaunchScreen.storyboard */; };
+		E44EA554271E4FF7005B03EC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44EA553271E4FF7005B03EC /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E44EA547271E4D6C005B03EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E44EA54A271E4D6C005B03EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E44EA54C271E4D6C005B03EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E44EA553271E4FF7005B03EC /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E44EA53D271E4D67005B03EC /* Desafio-MVVM-figma */ = {
 			isa = PBXGroup;
 			children = (
+				E44EA552271E4F70005B03EC /* Utils */,
 				E44EA53E271E4D67005B03EC /* AppDelegate.swift */,
 				E44EA540271E4D67005B03EC /* SceneDelegate.swift */,
 				E44EA542271E4D67005B03EC /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				E44EA54C271E4D6C005B03EC /* Info.plist */,
 			);
 			path = "Desafio-MVVM-figma";
+			sourceTree = "<group>";
+		};
+		E44EA552271E4F70005B03EC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E44EA553271E4FF7005B03EC /* Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				E44EA543271E4D67005B03EC /* ViewController.swift in Sources */,
 				E44EA53F271E4D67005B03EC /* AppDelegate.swift in Sources */,
 				E44EA541271E4D67005B03EC /* SceneDelegate.swift in Sources */,
+				E44EA554271E4FF7005B03EC /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
